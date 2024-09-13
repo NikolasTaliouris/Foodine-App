@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "479898569152",
+    "project_id": "foodineapp-9f31b",
+    "storage_bucket": "foodineapp-9f31b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:479898569152:android:e344505ab6aa77d4f5a025",
+        "android_client_info": {
+          "package_name": "com.capstone.foodineapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "479898569152-9stqadug5hqir33h4ln21rr64hod2rn2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDWKD6mUzuuos_BNBKO5dvyF_EuuhBByME"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "479898569152-9stqadug5hqir33h4ln21rr64hod2rn2.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

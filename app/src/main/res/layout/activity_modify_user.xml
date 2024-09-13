@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context=".Activities.ModifyUser">
+
+    <TextView
+        android:id="@+id/text1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Update User Credentials"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:textSize="30dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="100dp"/>
+
+    <EditText
+        android:id="@+id/changeName"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/text1"
+        android:layout_marginTop="100dp"
+        android:hint="Change your Username"
+        android:inputType="textPersonName"
+        android:textColorHint="@color/white"
+        android:textColor="@color/white"/>
+
+    <Button
+        android:id="@+id/updateUsername"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/black"
+        android:text="Update Username"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/changeName"
+        android:layout_marginTop="20dp"/>
+    <EditText
+        android:id="@+id/changePassword"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/updateUsername"
+        android:layout_marginTop="30dp"
+        android:hint="Change your Password"
+        android:inputType="textPersonName"
+        android:textColorHint="@color/white"
+        android:textColor="@color/white"/>
+
+    <Button
+        android:id="@+id/updatePassword"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/black"
+        android:text="Update Username"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/changePassword"
+        android:layout_marginTop="20dp"/>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

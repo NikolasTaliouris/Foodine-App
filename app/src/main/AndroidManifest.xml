@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@drawable/logo"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.FoodineApp"
+        tools:targetApi="31">
+        <activity
+            android:name=".Activities.ModifyUser"
+            android:exported="false" />
+        <activity
+            android:name=".Activities.ProfileManager"
+            android:exported="false" />
+        <activity
+            android:name=".Activities.ShowUsers"
+            android:exported="false" />
+        <activity
+            android:name=".Activities.CreateItem"
+            android:exported="false" />
+        <activity
+            android:name=".Activities.CreateCategory"
+            android:exported="false" />
+        <activity
+            android:name=".Activities.Admin"
+            android:exported="false" />
+        <activity
+            android:name=".Activities.CheckoutActivity"
+            android:exported="true"
+            android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+
+                <!-- Define the custom scheme and path -->
+                <data
+                    android:host="checkout"
+                    android:scheme="myapp" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Activities.ShoppingCart"
+            android:exported="false" />
+        <activity
+            android:name=".Activities.FoodList"
+            android:exported="false" />
+        <activity
+            android:name=".Activities.Menu"
+            android:exported="false" />
+        <activity
+            android:name=".Activities.SignIn"
+            android:exported="false" />
+        <activity
+            android:name=".Activities.SignUp"
+            android:exported="false" />
+        <activity
+            android:name=".Activities.MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">FoodineApp</string>
+    <string name="logo">FOODINE</string>
+    <string name="slogan">A life full of Tasty Food</string>
+    <string name="signIn">Sign in</string>
+    <string name="signUp">Sign up</string>
+
+</resources>
